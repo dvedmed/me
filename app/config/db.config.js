@@ -1,6 +1,6 @@
 module.exports = {
     DB: "Honest Stork 70306",
-    HOST: "188.225.33.101",
+    HOST: "%",
     USER: "gen_user",
     IP: "188.225.33.101",
     PORT: 3306,
