@@ -10,6 +10,9 @@ const sequelize = new Sequelize(
         dialect: config.dialect,
         operatorsAliases: false,
 
+        port: config.PORT,
+        ip: config.IP,
+
         pool: {
             max: config.pool.max,
             min: config.pool.min,
