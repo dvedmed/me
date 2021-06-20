@@ -1,8 +1,7 @@
 module.exports = {
-    DB: "Honest Stork 70306",
-    HOST: "%",
+    DB: "default_db",
+    HOST: "188.225.33.101",
     USER: "gen_user",
-    IP: "188.225.33.101",
     PORT: 3306,
     PASSWORD: "osyo7pel9",
     dialect: "mysql",
