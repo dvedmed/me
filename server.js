@@ -21,7 +21,8 @@ db.sequelize.sync();
 
 //test init
 app.get("/", (req, res) => {
-    res.json({ message: "Monthly Expense Server initialized" });
+    console.log(`Get /`);
+    res.json({ message: "Monthly Expense Server initialized 2" });
 });
 
 // routes
