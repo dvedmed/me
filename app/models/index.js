@@ -6,7 +6,6 @@ const sequelize = new Sequelize(
     config.USER,
     config.PASSWORD,
     {
-        port: config.PORT,
         host: config.HOST,
         dialect: config.dialect,
         operatorsAliases: false,
@@ -50,3 +49,20 @@ db.category.belongsTo(db.user, {
 });
 
 module.exports = db;
+
+//Test connection
+/*const connection = mysql.createConnection({
+    host: "remotemysql.com",
+    user: "Gc3rThDHrQ",
+    database: "Gc3rThDHrQ",
+    password: "uywXyNjTaG"
+});
+
+connection.connect(function(err){
+    if (err) {
+        return console.error("Ошибка: " + err.message);
+    }
+    else{
+        console.log("Подключение к серверу MySQL успешно установлено");
+    }
+});*/
